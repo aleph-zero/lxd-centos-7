@@ -71,7 +71,7 @@ usage : CONFIG=/path/to/config /usr/bin/lxc-checkconfig
 I haven't been able to launch a container directly due to the unprivileged issue. Following the docs and running something like ```lxc launch images:image-name your-container``` wouldn't work for me.
 
 Instead follow these instructions.
-  * Find available images: ```lxc image list images: 'centos'```
+  * Find available images:
   ```
   [ burner ~ ] [ 05:59:42 ] > lxc image list images: 'centos'
 +------------------------+--------------+--------+---------------------------------+--------+---------+------------------------------+
