@@ -50,7 +50,7 @@ LimitNOFILE=-1
 LimitNPROC=-1
 Once you've saved that file, enable, start, and set the service to start on boot:
 
-addgroup lxd
+groupadd lxd
 
 mkdir -p /var/log/lxd
 systemctl enable lxd
