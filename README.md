@@ -159,4 +159,6 @@ Instead follow these instructions.
 ```
   * Done
    
-  
+## Proxy config (Optionnal)
+lxc config set core.proxy_http http://url-to-proxy
+lxc config set core.proxy_http https://url-to-proxy
