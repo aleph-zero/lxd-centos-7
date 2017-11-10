@@ -18,7 +18,7 @@ Install lxc libraries
 yum -y install python-requests
 rpm --nodeps -i https://copr-be.cloud.fedoraproject.org/results/alonid/yum-plugin-copr/epel-7-x86_64/00110045-yum-plugin-copr/yum-plugin-copr-1.1.31-508.el7.centos.noarch.rpm
 yum copr enable thm/lxc2.0
-yum -y install lxc lxc-devel
+yum -y install lxc-devel
 Build from source
 
 yum install -y golang-bin git make dnsmasq squashfs-tools libacl-devel
