@@ -21,7 +21,7 @@ yum copr enable thm/lxc2.0
 yum -y install lxc lxc-devel
 Build from source
 
-yum install -y golang-bin git make dnsmasq squashfs-tools
+yum install -y golang-bin git make dnsmasq squashfs-tools libacl-devel
 mkdir ~/go
 export GOPATH=~/go
 go get github.com/lxc/lxd
